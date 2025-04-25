@@ -1,5 +1,5 @@
 #include "carro.h"
-
+//Declaração de funções da classe Carro arquivo = carrp.h
 void Carro::setReceberDados()
 {
     std::cout << "Nome do carro: ";
