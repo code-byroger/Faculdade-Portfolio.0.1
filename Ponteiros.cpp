@@ -2,14 +2,14 @@
 #include <tchar.h>
 int main()
 {
-	//Definindo o terminal em português
+	//Definindo o terminal em portuguÃªs
 	_tsetlocale(LC_ALL, _T("portuguese"));
 
-	//Declarando as variáveis
+	//Declarando as variÃ¡veis
 	int n1{ 0 }, n2{ 0 }, result{ 0 };
 	int* p1, * p2;
 
-	//Apontando o endereço de memória para os ponteiros
+	//Apontando o endereÃ§o de memÃ³ria para os ponteiros
 	p1 = &n1;
 	p2 = &n2;
 
@@ -20,9 +20,12 @@ int main()
 	std::cout << "Digite o segundo valor: ";
 	std::cin >> *p2; 
 
-	//atribuindo a soma dos ponteiro a variável result
+	//atribuindo a soma dos ponteiro a variÃ¡vel result
 	result = *p1 + *p2;
 
 	//apresentando os valores na tela
 	std::cout << *p1 << " + " << *p2 << " = " << result << std::endl;
+	
+	system("PAUSE");
+	return 0;
 }
